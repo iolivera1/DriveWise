@@ -55,7 +55,7 @@ export function TopCars() {
       "https://cdn.jdpower.com/Models/640x480/2017-Audi-S3-PremiumPlus.jpg",
     dailyPrice: 70,
     monthlyPrice: 1600,
-    gearType: "Auto",
+    gearType: "Manual",
     gas: "Petrol",
   };
 
@@ -86,12 +86,14 @@ export function TopCars() {
     <Car {...testCar3} />,
     <Car {...testCar2} />,
     <Car {...testCar} />,
+    <Car {...testCar2} />,
+    <Car {...testCar3} />,
   ];
 
   const numberOfDots = isMobile ? cars.length : Math.ceil(cars.length / 3);
 
   return (
-    <TopCarsContainer>
+    <TopCarsContainer id="contact">
       <Title>Explore Our Top Deals</Title>
       <CarsContainer>
         <Carousel

@@ -162,27 +162,7 @@ export function Footer() {
           </AboutText>
         </AboutContainer>
         <SectionContainer>
-          <HeaderTitle>Our Links</HeaderTitle>
-          <LinksList>
-            <ListItem>
-              <a href="#">Home</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">About Us</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Services</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Models</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Blogs</a>
-            </ListItem>
-          </LinksList>
-        </SectionContainer>
-        <SectionContainer>
-          <HeaderTitle>Other Links</HeaderTitle>
+          <HeaderTitle>Links</HeaderTitle>
           <LinksList>
             <ListItem>
               <a href="#">FAQ</a>

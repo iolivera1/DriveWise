@@ -77,7 +77,7 @@ const InfoText = styled.p`
 
 export function AboutUs() {
   return (
-    <AboutUsContainer>
+    <AboutUsContainer id="car">
       <CarContainer>
         <img src={JeepImg} alt="Jeep car" />
       </CarContainer>
